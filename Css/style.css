@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: rgb(104, 247, 104);
+    text-transform: uppercase;
+    text-size-adjust: 2rem;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    color:darkgreen;
+    text-align: center;
+    text-decoration: underline;
+    text-size-adjust: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+p{
+    display: flex;
+    align-content: center;
+}
+
+.textoPresentacion{
+    color: beige;
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.listaDoc{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
